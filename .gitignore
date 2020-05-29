@@ -30,4 +30,5 @@ sysinfo.txt
 *.unitypackage
 *.meta
 *.DS_Store
-export for dev/alpha.png
+export for dev/
+Library/
