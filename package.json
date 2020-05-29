@@ -5,6 +5,6 @@
   "unity": "2018.4",
   "description": "Ads plugin for admob and unity ads.",
 "dependencies": {
-        
+        "com.google.external-dependency-manager": "1.2.155"
     }
 }
