@@ -1,8 +1,8 @@
 [Ll]ibrary/
 #[Pp]rojectSettings/
-[Pp]ackages/
-[Tt]emp/
-[Ll]ogs/
+#[Pp]ackages/
+#[Tt]emp/
+#[Ll]ogs/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
