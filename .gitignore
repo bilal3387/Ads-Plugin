@@ -1,3 +1,6 @@
+[Pp]roject[Ss]ettings/
+[Ll]ogs/
+
 # Visual Studio cache directory
 .vs/
 
@@ -30,5 +33,3 @@ sysinfo.txt
 *.unitypackage
 *.meta
 *.DS_Store
-[Pp]roject[Ss]ettings/
-[Ll]ogs/
