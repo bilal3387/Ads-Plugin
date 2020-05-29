@@ -1,0 +1,17 @@
+{
+    "name": "AdsManagerEditor",
+    "references": [
+        "GoogleMobileAds",
+        "Namespace.AdsManager"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

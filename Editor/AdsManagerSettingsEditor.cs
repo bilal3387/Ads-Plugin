@@ -13,12 +13,12 @@ using GoogleMobileAds.Api;
     [CustomEditor(typeof(AdsManagerSettings))]
     public class AdsManagerSettingsEditor : UnityEditor.Editor
     {
-    private const string AdsManagerSettingsDir = "Assets/AdsManager";
+    private const string AdsManagerSettingsDir = "Assets";
 
-    private const string AdsManagerSettingsResDir = "Assets/AdsManager/Resources";
+    private const string AdsManagerSettingsResDir = "Assets/Resources";
 
     private const string AdsManagerSettingsFile =
-        "Assets/AdsManager/Resources/AdsManagerSettings.asset";
+        "Assets/Resources/AdsManagerSettings.asset";
 
     [MenuItem("Assets/Ads Manager/Settings...")]
         public static void OpenInspector()
