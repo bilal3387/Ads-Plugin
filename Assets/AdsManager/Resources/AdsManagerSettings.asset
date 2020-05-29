@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f078a7a5f1d46dbbd1fcba834bebb4, type: 3}
+  m_Name: AdsManagerSettings
+  m_EditorClassIdentifier: 
+  isTestModeEnabled: 1
+  isUnityAdsEnabled: 1
+  unityAdsId: 1683204
+  isAdMobEnabled: 1
+  adMobAndroidAppId: 
+  adMobIOSAppId: 
+  isLoadingInterstitialEnabled: 1
+  loadingInterstitalId: 
+  interstitalId: 
+  isBannerEnabled: 1
+  bannerId: 
+  bannerPosition: 4
+  bannerSize: 0
+  delayAppMeasurementInit: 0

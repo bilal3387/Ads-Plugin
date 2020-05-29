@@ -1,0 +1,11 @@
+<registries>
+  <!-- Registry that contains the Ads Manager plugin. -->
+  <registry name="Ads Manager"
+            url="https://github.com/bilal3387/AdsManager.git"
+            termsOfService="https://developers.google.com/"
+            privacyPolicy="https://policies.google.com/">
+    <scopes>
+      <scope>com.adsmanager</scope>
+    </scopes>
+  </registry>
+</registries>
