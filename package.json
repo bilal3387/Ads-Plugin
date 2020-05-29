@@ -1,10 +1,9 @@
 {
   "name": "com.ads.manager",
-  "displayName": "Ads Manager",
+  "displayName": "AdsManager",
   "version": "1.0.0",
   "unity": "2018.4",
   "description": "Ads plugin for admob and unity ads.",
 "dependencies": {
-"com.unity.ads": "3.4.5"
     }
 }
