@@ -57,7 +57,8 @@ public sealed class AdsManager : IUnityAdsListener
         if (this.isLoadingInterstitial)
         {
             this.isLoadingInterstitial = false;
-            this.OnLoadingInterstitialDidFinishOrFail?.Invoke();
+            if(OnLoadingInterstitialDidFinishOrFail != null)
+            this.OnLoadingInterstitialDidFinishOrFail.Invoke();
         }
 
         shoulRequestInterstitial = true;
@@ -68,7 +69,8 @@ public sealed class AdsManager : IUnityAdsListener
         if (this.isLoadingInterstitial)
         {
             this.isLoadingInterstitial = false;
-            this.OnLoadingInterstitialDidFinishOrFail?.Invoke();
+            if(OnLoadingInterstitialDidFinishOrFail != null)
+            this.OnLoadingInterstitialDidFinishOrFail.Invoke();
         }
 
         RequestInterstitial(AdsManagerSettings.Instance.InterstitalId);
@@ -234,8 +236,8 @@ public sealed class AdsManager : IUnityAdsListener
                     result = RewardedAdResult.Skipped;
                     break;
             }
-
-            OnRewardedAdDidFinish?.Invoke(result, "");
+            if(OnRewardedAdDidFinish != null)
+            OnRewardedAdDidFinish.Invoke(result, "");
         }
     }
 
