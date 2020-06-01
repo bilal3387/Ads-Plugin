@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 97d79a775000c4df9adc721ff42f2471
+guid: be0909c1805b944bab4b0e30310a159b
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -24,11 +24,6 @@ PluginImporter:
         DefaultValueInitialized: true
   - first:
       iPhone: iOS
-    second:
-      enabled: 1
-      settings: {}
-  - first:
-      tvOS: tvOS
     second:
       enabled: 1
       settings: {}

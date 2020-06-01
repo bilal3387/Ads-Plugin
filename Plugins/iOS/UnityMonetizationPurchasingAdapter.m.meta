@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7b396b141a7ed4523950df1e5f9c9e48
+guid: 6168cdd9909c34f25af0d4764c8c92b6
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -7,10 +7,25 @@ PluginImporter:
   executionOrder: {}
   defineConstraints: []
   isPreloaded: 0
-  isOverridable: 0
+  isOverridable: 1
   isExplicitlyReferenced: 0
-  validateReferences: 1
   platformData:
+  - first:
+      '': Any
+    second:
+      enabled: 0
+      settings:
+        Exclude Android: 1
+        Exclude Editor: 1
+        Exclude Linux: 1
+        Exclude Linux64: 1
+        Exclude LinuxUniversal: 1
+        Exclude OSXUniversal: 1
+        Exclude WebGL: 1
+        Exclude Win: 1
+        Exclude Win64: 1
+        Exclude iOS: 0
+        Exclude tvOS: 1
   - first:
       Any: 
     second:
@@ -30,7 +45,7 @@ PluginImporter:
   - first:
       tvOS: tvOS
     second:
-      enabled: 1
+      enabled: 0
       settings: {}
   userData: 
   assetBundleName: 

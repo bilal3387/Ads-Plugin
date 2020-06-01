@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f078a7a5f1d46dbbd1fcba834bebb4, type: 3}
+  m_Script: {fileID: 11500000, guid: a2180a21cd9e54502b7e220cc0ec1af2, type: 3}
   m_Name: AdsManagerSettings
   m_EditorClassIdentifier: 
   isTestModeEnabled: 1
@@ -23,6 +23,6 @@ MonoBehaviour:
   interstitalId: 
   isBannerEnabled: 1
   bannerId: 
-  bannerPosition: 4
+  bannerPosition: 0
   bannerSize: 0
   delayAppMeasurementInit: 0

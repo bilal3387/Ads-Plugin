@@ -1,8 +1,7 @@
 {
-    "name": "AdsManagerEditor",
+    "name": "AdsManager.Editor",
     "references": [
-        "GoogleMobileAds",
-        "Namespace.AdsManager"
+        "AdsManager"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [
